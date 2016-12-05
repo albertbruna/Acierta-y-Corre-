@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonEmpezar" type="id">Empezar test</item>
+    <item name="EmpezarTest" type="id">EMPEZAR TEST!</item>
+    <item name="Tema" type="id">Tema</item>
+    <item name="Hist" type="id">Histórico</item>
+    <item name="ListaTemas" type="id">ListaTemas</item>
+</resources>
