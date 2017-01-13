@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id = "@+id/activity_pregunta"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id = "@+id/radiogroup_answers">
+
+        <RadioButton
+            android:text="RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton"
+            android:layout_alignEnd="@+id/radioButton"
+            android:layout_marginTop="12dp"
+            android:id="@+id/radioButton2"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton2"
+            android:layout_alignStart="@+id/radioButton2"
+            android:layout_marginTop="13dp"
+            android:id="@+id/radioButton3"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="73dp"
+            android:id="@+id/radioButton"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/imageViewQuestion"
+            android:layout_marginStart="86dp"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/imageViewQuestion"
+        android:layout_alignTop="@+id/radioButton2"
+        android:layout_alignEnd="@+id/textViewQuestion" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewQuestion"
+        android:layout_marginStart="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_above="@+id/radioButton3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="17dp"
+        android:id="@+id/check" />
+
+</LinearLayout>
