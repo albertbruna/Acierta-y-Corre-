@@ -15,6 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ActivityTest"/>
+        <activity android:name=".ActivityErrores"/>
+        <activity android:name=".ActivityHistorial"/>
+        <activity android:name=".ActivityTemas"/>
     </application>
 
 </manifest>

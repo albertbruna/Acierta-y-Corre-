@@ -16,7 +16,6 @@ import android.widget.TextView;
 
 public class ActivityTest extends AppCompatActivity {
     private Button back;
-
     private Test test;
     private ListView listViewTest;
     private TextView textViewQuestion;

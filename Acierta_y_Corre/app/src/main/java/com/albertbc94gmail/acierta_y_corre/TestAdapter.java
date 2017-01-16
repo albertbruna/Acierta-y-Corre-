@@ -2,15 +2,13 @@ package com.albertbc94gmail.acierta_y_corre;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.CheckBox;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.TextView;
 
 import java.util.List;
 
@@ -19,10 +17,10 @@ import java.util.List;
  */
 
 public class TestAdapter extends ArrayAdapter<Question> {
-    private int buttonGroup;
-    private int imageViewQuestion;
-    private int imageViewVerify;
-    private int[] radioButtons;
+    private final int buttonGroup;
+    private final int imageViewQuestion;
+    private final int imageViewVerify;
+    //private int[] radioButtons;
 
     //private int textViewResourceId;
     public TestAdapter(Context context, int layout, int textViewQuestion,  int imageViewQuestion, int buttonGroup, int imageViewVerify, List<Question> objects) {
@@ -35,10 +33,12 @@ public class TestAdapter extends ArrayAdapter<Question> {
 
     @NonNull
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(int position, View convertView, @NonNull ViewGroup parent) {
 
-        //test = getItem(position);
-        View result = convertView;
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.activity_test, parent, false);
+        }
+
         RadioGroup rg = (RadioGroup) convertView.findViewById(buttonGroup);
         ImageView imviewQuestion = (ImageView) convertView.findViewById(imageViewQuestion);
         ImageView imviewVerify = (ImageView) convertView.findViewById(imageViewVerify);
@@ -57,7 +57,12 @@ public class TestAdapter extends ArrayAdapter<Question> {
             ((RadioButton)rg.getChildAt(i)).setText(q.getRespostes()[i]);
         }
 
-       // rg.setOnCheckedChangeListener();//quan canvi el seleccionat, modifica resposta
+       rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener(){
+           @Override
+           public void onCheckedChanged(RadioGroup group, int checkedId) {
+               //rg.check(q.getResposta());
+           }
+       });//quan canvi el seleccionat, modifica resposta
 
         return super.getView(position, convertView, parent);
     }
