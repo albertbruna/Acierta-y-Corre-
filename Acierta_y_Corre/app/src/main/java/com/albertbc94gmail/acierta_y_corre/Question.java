@@ -17,6 +17,17 @@ public class Question {
     private Bitmap image;
     private int resposta=-1;
 
+    //Estos 2 metodos es para separar la respuesta correcta de los distractores al encontrar ;
+
+    private static String getCorrectAnswers(String answers) {
+        return answers.split(";")[0];
+    }
+
+    private static String[] getDistractors(String answers) {
+        int i = answers.indexOf(';');
+        return answers.substring(i+1).split(";");
+    }
+
     public int getResposta() {
         return resposta;
     }
@@ -24,6 +35,12 @@ public class Question {
     public void setResposta(int resposta) {
         this.resposta = resposta;
     }
+
+    //Constructor para que coja la respuesta correcta como la primera, da error
+
+    /*public Question(String question, String answers, Bitmap image) {
+        this(question,getDistractors(answers),getCorrectAnswers(answers),image);
+    }*/
 
     public Question(String question, String[] distractors, String correctAnswer, Bitmap image){
         this.question = question;

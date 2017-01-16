@@ -66,6 +66,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        test = GeneradorTest.generarTest();
+        //test = GeneradorTest.generarTest();
     }
 }

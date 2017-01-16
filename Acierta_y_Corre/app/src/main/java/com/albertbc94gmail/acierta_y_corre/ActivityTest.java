@@ -31,9 +31,16 @@ public class ActivityTest extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_test);
-        test = GeneradorTest.generarTest();
+        test = GeneradorTest.generarTest(this);
         listViewTest = (ListView) findViewById(R.id.listViewtest);
-        adapter = new TestAdapter(this,R.id.activity_pregunta,R.id.textViewQuestion,R.id.imageViewQuestion,R.id.radiogroup_answers,R.id.check,test.getQuestions());
+        adapter = new TestAdapter(this,
+                R.layout.activity_pregunta,
+                R.id.textViewQuestion,
+                R.id.imageViewQuestion,
+                R.id.radiogroup_answers,
+                new int[]{R.id.radioButton,R.id.radioButton2,R.id.radioButton3},
+                R.id.check,
+                test.getQuestions());
         listViewTest.setAdapter(adapter);
 
 //        radioButtonsAnswers = new RadioButton[3];

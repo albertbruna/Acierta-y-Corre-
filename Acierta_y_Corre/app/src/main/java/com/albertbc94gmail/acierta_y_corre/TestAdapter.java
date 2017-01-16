@@ -20,24 +20,23 @@ public class TestAdapter extends ArrayAdapter<Question> {
     private final int buttonGroup;
     private final int imageViewQuestion;
     private final int imageViewVerify;
-    //private int[] radioButtons;
+    private int[] radioButtons;
+    //private int textViewResourceId;
 
     //private int textViewResourceId;
-    public TestAdapter(Context context, int layout, int textViewQuestion,  int imageViewQuestion, int buttonGroup, int imageViewVerify, List<Question> objects) {
+    public TestAdapter(Context context, int layout, int textViewQuestion,  int imageViewQuestion, int buttonGroup, int[] radioButtons, int imageViewVerify, List<Question> objects) {
         super(context, layout, textViewQuestion, objects);
         this.buttonGroup = buttonGroup;
         this.imageViewQuestion =imageViewQuestion;
         this.imageViewVerify = imageViewVerify;
-        //this.radioButtons = radioButtons;
+        this.radioButtons = radioButtons;
     }
 
-    @NonNull
-    @Override
-    public View getView(int position, View convertView, @NonNull ViewGroup parent) {
 
-        if (convertView == null) {
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.activity_test, parent, false);
-        }
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+
+        convertView = super.getView(position, convertView, parent);
 
         RadioGroup rg = (RadioGroup) convertView.findViewById(buttonGroup);
         ImageView imviewQuestion = (ImageView) convertView.findViewById(imageViewQuestion);
@@ -52,18 +51,32 @@ public class TestAdapter extends ArrayAdapter<Question> {
         else{
             imviewVerify.setImageBitmap(null); //imatge correcte
         }
-        rg.check(q.getResposta());
-        for(int i=0; i<q.getRespostes().length; i++) {
-            ((RadioButton)rg.getChildAt(i)).setText(q.getRespostes()[i]);
+        if(q.getResposta()!=-1) {
+            rg.check(radioButtons[q.getResposta()]);
         }
+        else {
+            rg.check(q.getResposta());
+        }
+        for(int i=0; i<q.getRespostes().length; i++) {
+            RadioButton rb = (RadioButton)rg.getChildAt(i);
+            rb.setText(q.getRespostes()[i]);
+            final int answer = i;
+            final int question = position;
+            rb.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    clickAnswer(question,answer);
+                }
+            });
+        }
+        return convertView;
+    }
 
-       rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener(){
-           @Override
-           public void onCheckedChanged(RadioGroup group, int checkedId) {
-               //rg.check(q.getResposta());
-           }
-       });//quan canvi el seleccionat, modifica resposta
-
-        return super.getView(position, convertView, parent);
+    //este metodo es para q guarde la respuesta clicada, sino al mover la lista o girar la pantalla se perderia lo seleccionado
+    protected void clickAnswer(int question, int answer) {
+        Question q = getItem(question);
+        if(q.getResposta()==answer) answer = -1;
+        q.setResposta(answer);
+        notifyDataSetChanged();
     }
 }
