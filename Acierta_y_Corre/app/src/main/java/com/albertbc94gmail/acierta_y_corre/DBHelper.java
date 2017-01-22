@@ -133,13 +133,12 @@ public class DBHelper extends SQLiteOpenHelper {
         Test t = new Test();
         SQLiteDatabase db = getReadableDatabase();
         Cursor c = db.rawQuery("SELECT * FROM preguntas ORDER BY RANDOM() LIMIT 30" , null);
-        int i = 0,j=0;
+        //int i=0;
         if (c.moveToFirst()) {
             do {
                 String[] distractors = {c.getString(4), c.getString(5)};
                 t.addQuestion(new Question(c.getInt(0), c.getString(2), distractors, c.getString(3), c.getString(6)));
-                Log.d("generarTest", t.getQuestions().get(i++).toString());
-                j++;
+                //Log.d("generarTest", t.getQuestions().get(i++).toString());
             } while (c.moveToNext());
         }
         db.close();
@@ -149,13 +148,13 @@ public class DBHelper extends SQLiteOpenHelper {
     public Test generarTestErrores() {
         Test t = new Test();
         SQLiteDatabase db = getReadableDatabase();
-        Cursor c = db.rawQuery("SELECT * FROM testErrores", null);
+        Cursor c = db.rawQuery("SELECT * FROM testErrores ORDER BY RANDOM() LIMIT 30" , null);
         int i = 0;
         if (c.moveToFirst()) {
             do {
                 String[] distractors = {c.getString(4), c.getString(5)};
                 t.addQuestion(new Question(c.getInt(0), c.getString(2), distractors, c.getString(3), c.getString(6)));
-                Log.d("generarTestErrores", t.getQuestions().get(i++).toString());
+                //Log.d("generarTestErrores", t.getQuestions().get(i++).toString());
             } while (c.moveToNext());
         }
         t.shuffle(); //Mezcla las preguntas
@@ -213,6 +212,7 @@ public class DBHelper extends SQLiteOpenHelper {
             c.moveToNext();
         }
         score = new Score(
+                c.getInt(0),
                 Integer.parseInt(c.getString(1)),
                 Integer.parseInt(c.getString(2)),
                 Integer.parseInt(c.getString(3)));
@@ -229,6 +229,7 @@ public class DBHelper extends SQLiteOpenHelper {
         if(c.moveToFirst()) {
             do {
                 score.add(new Score(
+                        Integer.parseInt(c.getString(0)),
                         Integer.parseInt(c.getString(1)),
                         Integer.parseInt(c.getString(2)),
                         Integer.parseInt(c.getString(3))));

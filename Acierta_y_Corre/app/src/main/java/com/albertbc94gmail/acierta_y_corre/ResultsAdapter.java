@@ -15,7 +15,7 @@ import android.widget.TextView;
 public class ResultsAdapter extends BaseAdapter {
     private DBHelper db; // Base de datos
     private LayoutInflater inflador;
-    TextView nAciertos, nFallos, id;
+    TextView nAciertos, nFallos, id_hist;
     ProgressBar porcentaje;
 
     public ResultsAdapter(Context context) {
@@ -28,10 +28,12 @@ public class ResultsAdapter extends BaseAdapter {
         if (vistaReciclada == null) {
             vistaReciclada = inflador.inflate(R.layout.result, null);
         }
+        id_hist = (TextView) vistaReciclada.findViewById(R.id.id_hist);
         nAciertos = (TextView) vistaReciclada.findViewById(R.id.listNAciertos);
         nFallos = (TextView) vistaReciclada.findViewById(R.id.listNFallos);
         porcentaje = (ProgressBar) vistaReciclada.findViewById(R.id.listPorcentaje);
 
+        id_hist.setText("Tema nº " + Integer.toString(puntuacion.getId_h()));
         nAciertos.setText(Integer.toString(puntuacion.getCorrectas()));
         nFallos.setText(Integer.toString(puntuacion.getFallidas()));
         porcentaje.setProgress(puntuacion.getPorcentaje());
@@ -41,16 +43,16 @@ public class ResultsAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return 0;
+        return db.getCount();
     }
 
     @Override
     public Object getItem(int position) {
-        return null;
+        return db.get(position);
     }
 
     @Override
     public long getItemId(int position) {
-        return 0;
+        return position;
     }
 }

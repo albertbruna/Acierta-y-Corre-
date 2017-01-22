@@ -16,7 +16,7 @@ import android.widget.ListView;
 
 public class ActivityHistorial extends AppCompatActivity {
     private Button back;
-    private ResultsAdapter adaptador;
+    private BaseAdapter adaptador;
     private ListView listViewHist;
 
     @Override
@@ -24,9 +24,9 @@ public class ActivityHistorial extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_historial);
 
-        //adaptador = new ResultsAdapter(this);
+        adaptador = new ResultsAdapter(this);
         listViewHist = (ListView) findViewById(R.id.listViewHistorial);
-        //listViewHist.setAdapter(adaptador);
+        listViewHist.setAdapter(adaptador);
 
         back = (Button)findViewById(R.id.back);
         back.setOnClickListener(new View.OnClickListener(){

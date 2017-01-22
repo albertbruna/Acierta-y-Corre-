@@ -5,9 +5,10 @@ package com.albertbc94gmail.acierta_y_corre;
  */
 
 public class Score {
-    private int correctas, fallidas, porcentaje;
+    private int id_h, correctas, fallidas, porcentaje;
 
-    public Score(int correctas, int fallidas, int porcentaje) {
+    public Score(int id_h, int correctas, int fallidas, int porcentaje) {
+        this.id_h = id_h;
         this.correctas = correctas;
         this.fallidas = fallidas;
         this.porcentaje = porcentaje;
@@ -23,5 +24,9 @@ public class Score {
 
     public int getPorcentaje() {
         return porcentaje;
+    }
+
+    public int getId_h() {
+        return id_h;
     }
 }

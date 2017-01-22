@@ -1,37 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="23"
-    density="420dpi"
+    density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="29936250837653"
-    token="-5679240244296016196"
-    verifier="BINARY_MANIFEST_FILE_CHANGE" >
+    timestamp="41718031236827"
+    token="4207110325454908385"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="396" />
+        duration="3975" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="43" />
+        duration="318" />
     <task
         name="verifier"
-        duration="3" />
+        duration="40" />
 
     <artifact
-        location="E:\Descargas\Acierta-y-Corre--master\Acierta_y_Corre\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="29936250837653"
-        verifier="BINARY_MANIFEST_FILE_CHANGE" >
+        timestamp="40739543574899"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="E:\Descargas\Acierta-y-Corre--master\Acierta_y_Corre\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="41718031236827"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

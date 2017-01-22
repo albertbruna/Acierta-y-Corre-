@@ -1917,6 +1917,7 @@ containing a value of this type.
         public static final int home=0x7f0c0004;
         public static final int homeAsUp=0x7f0c000d;
         public static final int icon=0x7f0c002c;
+        public static final int id_hist=0x7f0c0084;
         public static final int ifRoom=0x7f0c001f;
         public static final int image=0x7f0c0029;
         public static final int imageButton1=0x7f0c005c;
@@ -1929,9 +1930,9 @@ containing a value of this type.
         public static final int listAciertos=0x7f0c0081;
         public static final int listFallos=0x7f0c0080;
         public static final int listMode=0x7f0c0009;
-        public static final int listNAciertos=0x7f0c0082;
-        public static final int listNFallos=0x7f0c0083;
-        public static final int listPorcentaje=0x7f0c0084;
+        public static final int listNAciertos=0x7f0c0083;
+        public static final int listNFallos=0x7f0c0082;
+        public static final int listPorcentaje=0x7f0c0085;
         public static final int listViewHistorial=0x7f0c0057;
         public static final int listViewtest=0x7f0c0070;
         public static final int list_item=0x7f0c002b;

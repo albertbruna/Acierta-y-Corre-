@@ -11,7 +11,6 @@ import java.util.List;
 public class Test {
 
     private static List<Question> questions;
-    //private DBHelper db;
 
     public void setFinalized(boolean finalized) {
         this.finalized = finalized;
