@@ -60,8 +60,8 @@ public class TestAdapter extends ArrayAdapter<Question> {
         if (!q.getRecurso().equals("null")) { // Si es modo pregunta con imagen se carga el recurso
             imviewQuestion.setImageResource(getImageId(getContext(), q.getRecurso()));
         }
+        else imviewQuestion.setImageBitmap(null);
 
-        //imviewQuestion.setImageBitmap(q.getImage());
         if(isFinalized()) {
             if (q.getResposta() == -1 || !q.isCorrect()) {
                 Bitmap bm = BitmapFactory.decodeResource(getContext().getResources(), R.drawable.imgcheckwrong);

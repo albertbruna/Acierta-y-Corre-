@@ -55,12 +55,19 @@ public class DBHelper extends SQLiteOpenHelper {
                 "respuesta_falsa_1 VARCHAR(300) NOT NULL," +
                 "respuesta_falsa_2 VARCHAR(300) NOT NULL," +
                 "recurso VARCHAR(300))");
+
+        db.execSQL("CREATE TABLE scores (" +
+                "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                "correctas INTEGER NOT NULL," +
+                "fallidas INTEGER NOT NULL," +
+                "porcentaje INTEGER NOT NULL)");
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS preguntas");
         //db.execSQL("DROP TABLE IF EXISTS testErrores");
+        db.execSQL("DROP TABLE IF EXISTS puntuaciones");
         onCreate(db);
     }
 
@@ -110,32 +117,29 @@ public class DBHelper extends SQLiteOpenHelper {
         db.close();
     }
 
-//    public void eliminarErrores(int[] pregBien) {
-//        int preg;
-//        SQLiteDatabase db = getReadableDatabase();
-//        for (int i = 0; i < pregBien.length; i++) {
-//            preg = pregBien[i];
-//            db.rawQuery("DELETE * FROM testErrores where idpreg = " + preg, null);;
-//        }
-//        db.close();
-//    }
+    public void eliminarErrores(int[] pregBien) {
+        int preg;
+        SQLiteDatabase db = getWritableDatabase();
+        for (int i = 0; i < pregBien.length; i++) {
+            preg = pregBien[i];
+            db.delete("testErrores","id = ?", new String[] {String.valueOf(preg)});
+        }
+        db.close();
+    }
 
     public Test generarTest() {
         Test t = new Test();
         SQLiteDatabase db = getReadableDatabase();
-        Cursor c = db.rawQuery("SELECT * FROM preguntas", null);
+        Cursor c = db.rawQuery("SELECT * FROM preguntas ORDER BY RANDOM() LIMIT 30" , null);
         int i = 0,j=0;
         if (c.moveToFirst()) {
             do {
-                if(i<30) {
-                    String[] distractors = {c.getString(4), c.getString(5)};
-                    t.addQuestion(new Question(c.getInt(0), c.getString(2), distractors, c.getString(3), c.getString(6)));
-                    Log.d("generarTest", t.getQuestions().get(i++).toString());
-                    j++;
-                }
+                String[] distractors = {c.getString(4), c.getString(5)};
+                t.addQuestion(new Question(c.getInt(0), c.getString(2), distractors, c.getString(3), c.getString(6)));
+                Log.d("generarTest", t.getQuestions().get(i++).toString());
+                j++;
             } while (c.moveToNext());
         }
-        t.shuffle(); //Mezcla las preguntas
         db.close();
         return t;
     }
@@ -173,5 +177,63 @@ public class DBHelper extends SQLiteOpenHelper {
         t.shuffle(); //Mezcla las preguntas
         db.close();
         return t;
+    }
+
+    public void add(int correctas, int fallidas) {
+        int porcentaje = Math.round(((float) correctas / (correctas + fallidas)) * 100);
+        SQLiteDatabase db = getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put("correctas", Integer.toString(correctas));
+        values.put("fallidas", Integer.toString(fallidas));
+        values.put("porcentaje", Integer.toString(porcentaje));
+        db.insert("scores", null, values);
+        Log.d("Afegir Historial", Integer.toString(correctas));
+        db.close();
+    }
+
+    public int getCount() {
+        int count;
+
+        SQLiteDatabase db = this.getReadableDatabase();
+        count = db.rawQuery("SELECT id FROM scores", null).getCount();
+        db.close();
+
+        return count;
+    }
+
+    public Score get(int i) {
+        Score score;
+
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor c = db.rawQuery("SELECT * FROM scores", null);
+        c.moveToFirst();
+        for(int n = 0; n < i; n++) {
+            c.moveToNext();
+        }
+        score = new Score(
+                Integer.parseInt(c.getString(1)),
+                Integer.parseInt(c.getString(2)),
+                Integer.parseInt(c.getString(3)));
+        db.close();
+
+        return score;
+    }
+
+    public ArrayList<Score> getAll() {
+        ArrayList<Score> score = new ArrayList<Score>();
+
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor c = db.rawQuery("SELECT * FROM scores", null);
+        if(c.moveToFirst()) {
+            do {
+                score.add(new Score(
+                        Integer.parseInt(c.getString(1)),
+                        Integer.parseInt(c.getString(2)),
+                        Integer.parseInt(c.getString(3))));
+            } while (c.moveToNext());
+        }
+        db.close();
+
+        return score;
     }
 }

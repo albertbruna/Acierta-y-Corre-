@@ -5,29 +5,29 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="36032262866804"
+    timestamp="13415195650867"
     token="4207110325454908385"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="632" />
+        duration="1581" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="958" />
+        duration="2173" />
     <task
         name="verifier"
-        duration="255" />
+        duration="210" />
 
     <artifact
         location="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="36032262866804"
+        timestamp="13415195650867"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\outputs\apk\app-debug.apk"

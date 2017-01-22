@@ -277,7 +277,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="e66d98719f2cf0e6ab46d511891c41338840cda5">
+        sha1="f2ab6667e8a0445c0cf11e263871ef9287820b2a">
         <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_11df59bace855f97b1610fa61d10c3a1e1d06c64\classes.dex" />
     </item>
     <item
@@ -295,7 +295,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="73e2a72b0b520b6df2a17e2f950860489d8e45d2">
+        sha1="43184179219540151d01b184d5920c0703595663">
         <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5139911ac7f1ef82068e9a6ef9bfcd824869906f\classes.dex" />
     </item>
 

@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_temas"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <Button
+        android:text="Normas generales de comportamiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonTema1" />
+
+    <Button
+        android:text="Velocidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonTema2" />
+
+    <Button
+        android:text="Señales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonTema3" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonTema4"
+        tools:text="TEMA 4" />
 
     <Button
         android:text="back"
@@ -12,23 +38,5 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:id="@+id/back" />
-
-    <Button
-        android:text="Tema 1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/buttonTema1" />
-
-    <Button
-        android:text="Tema 2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/buttonTema2" />
-
-    <Button
-        android:text="Tema 3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/buttonTema3" />
 
 </LinearLayout>

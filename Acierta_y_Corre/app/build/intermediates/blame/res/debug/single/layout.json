@@ -36,6 +36,10 @@
         "source": "C:\\Users\\Albert\\Documents\\UNI\\ANDROID\\Acierta-y-Corre-\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
+        "merged": "C:\\Users\\Albert\\Documents\\UNI\\ANDROID\\Acierta-y-Corre-\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\debug\\layout\\result.xml",
+        "source": "C:\\Users\\Albert\\Documents\\UNI\\ANDROID\\Acierta-y-Corre-\\Acierta_y_Corre\\app\\src\\main\\res\\layout\\result.xml"
+    },
+    {
         "merged": "C:\\Users\\Albert\\Documents\\UNI\\ANDROID\\Acierta-y-Corre-\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\Albert\\Documents\\UNI\\ANDROID\\Acierta-y-Corre-\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_search_view.xml"
     },

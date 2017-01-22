@@ -20,7 +20,7 @@ import android.widget.TextView;
 public class ActivityTest extends AppCompatActivity {
     private Button back,finalizartest;
     private Test test;
-    private ListView listViewTest;
+    private ListView listViewTest,listViewHist;
     private TextView textViewQuestion;
     //private Question questions[];
     private TestAdapter adapter;
@@ -39,6 +39,7 @@ public class ActivityTest extends AppCompatActivity {
         //test = GeneradorTest.generarTest(this);
         test = db.generarTest();
         listViewTest = (ListView) findViewById(R.id.listViewtest);
+        //listViewHist = (ListView) findViewById(R.id.listViewHistorial);
 
         adapter = new TestAdapter(this,
                 R.layout.activity_pregunta,
@@ -68,6 +69,7 @@ public class ActivityTest extends AppCompatActivity {
                 ShowMessage();
                 respuestasMalas = test.respuestasmal();
                 db.añadirErrores(respuestasMalas);
+                db.add(test.countCorrectAnswers(),test.countWrongAnswers());
             }
         });
 

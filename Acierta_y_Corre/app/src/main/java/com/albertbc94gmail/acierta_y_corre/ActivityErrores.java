@@ -20,13 +20,13 @@ public class ActivityErrores extends AppCompatActivity {
     private Test test;
     private ListView listViewTest;
     private TextView textViewQuestion;
-    //private Question questions[];
     private TestAdapter adapter;
     private RadioButton[] radioButtonsAnswers;
     private int contOK;
     private boolean[] Verify;
     private String correctAnswer;
     private DBHelper db = DBHelper.getInstance(this);
+    private int[] respuestasbienerrores;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -63,7 +63,8 @@ public class ActivityErrores extends AppCompatActivity {
                 adapter.setFinalized(true);
                 adapter.notifyDataSetChanged();
                 ShowMessage();
-                //db.eliminarErrores(test.respuestasbienerrores());
+                respuestasbienerrores = test.respuestasbienerrores();
+                db.eliminarErrores(respuestasbienerrores);
             }
         });
 

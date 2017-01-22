@@ -70,16 +70,16 @@ public class Test {
         return pregMal;
     }
 
-//    public int[] respuestasbienerrores(){
-//        int i = 0;
-//        int[] pregBien;
-//        pregBien = new int[150];
-//        for(Question q: getQuestions()) {
-//            if (q.isCorrect()) {
-//                pregBien[i] = q.getIdQuestion();
-//            }
-//            i++;
-//        }
-//        return pregBien;
-//    }
+    public int[] respuestasbienerrores(){
+        int i = 0;
+        int[] pregBien;
+        pregBien = new int[150];
+        for(Question q: getQuestions()) {
+            if (q.isCorrect()) {
+                pregBien[i] = q.getIdQuestion();
+            }
+            i++;
+        }
+        return pregBien;
+    }
 }
