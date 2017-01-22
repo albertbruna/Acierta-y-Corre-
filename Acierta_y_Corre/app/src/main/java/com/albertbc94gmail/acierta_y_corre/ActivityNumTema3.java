@@ -7,8 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
-import android.widget.RadioButton;
-import android.widget.TextView;
 
 /**
  * Created by Francisco on 21/01/2017.
@@ -18,14 +16,9 @@ public class ActivityNumTema3 extends AppCompatActivity {
     private Button back,finalizartest;
     private Test test;
     private ListView listViewTest;
-    private TextView textViewQuestion;
-    //private Question questions[];
     private TestAdapter adapter;
-    private RadioButton[] radioButtonsAnswers;
-    private int contOK;
-    private boolean[] Verify;
-    private String correctAnswer;
     private DBHelper db = DBHelper.getInstance(this);
+    private int[] respuestasMalas;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -43,7 +36,9 @@ public class ActivityNumTema3 extends AppCompatActivity {
                 R.id.radiogroup_answers,
                 new int[]{R.id.radioButton,R.id.radioButton2,R.id.radioButton3},
                 R.id.check,test.getQuestions(),
-                test.isFinalized());
+                test.isFinalized()
+        );
+
         listViewTest.setAdapter(adapter);
         back = (Button)findViewById(R.id.back);
         back.setOnClickListener(new View.OnClickListener() {
@@ -52,6 +47,7 @@ public class ActivityNumTema3 extends AppCompatActivity {
                 finish();
             }
         });
+
         finalizartest = (Button)findViewById(R.id.buttonFinalizar);
         finalizartest.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,6 +56,9 @@ public class ActivityNumTema3 extends AppCompatActivity {
                 adapter.setFinalized(true);
                 adapter.notifyDataSetChanged();
                 ShowMessage();
+                respuestasMalas = test.respuestasmal();
+                db.añadirErrores(respuestasMalas);
+                db.add(test.countCorrectAnswers(),test.countWrongAnswers());
             }
         });
 

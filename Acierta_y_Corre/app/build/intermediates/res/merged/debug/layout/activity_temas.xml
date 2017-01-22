@@ -25,11 +25,10 @@
         android:id="@+id/buttonTema3" />
 
     <Button
-        android:text="Button"
+        android:text="Alumbrado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonTema4"
-        tools:text="TEMA 4" />
+        android:id="@+id/buttonTema4"/>
 
     <Button
         android:text="back"

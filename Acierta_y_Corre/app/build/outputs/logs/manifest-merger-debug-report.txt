@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\src\main\AndroidManifest.xml:3:5-50
 		INJECTED from C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corr
 		INJECTED from C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\src\main\AndroidManifest.xml:5:5-27:19
+ADDED from C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\src\main\AndroidManifest.xml:5:5-28:19
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\AndroidManifest.xml:25:5-20
@@ -78,6 +78,10 @@ activity#com.albertbc94gmail.acierta_y_corre.ActivityNumTema3
 ADDED from C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\src\main\AndroidManifest.xml:25:9-53
 	android:name
 		ADDED from C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\src\main\AndroidManifest.xml:25:19-51
+activity#com.albertbc94gmail.acierta_y_corre.ActivityNumTema4
+ADDED from C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\src\main\AndroidManifest.xml:26:9-53
+	android:name
+		ADDED from C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\src\main\AndroidManifest.xml:26:19-51
 uses-sdk
 INJECTED from C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:21:5-23:78

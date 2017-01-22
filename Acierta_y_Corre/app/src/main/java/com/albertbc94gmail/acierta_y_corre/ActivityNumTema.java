@@ -26,6 +26,7 @@ public class ActivityNumTema extends AppCompatActivity {
     private boolean[] Verify;
     private String correctAnswer;
     private DBHelper db = DBHelper.getInstance(this);
+    private int[] respuestasMalas;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -43,7 +44,9 @@ public class ActivityNumTema extends AppCompatActivity {
                 R.id.radiogroup_answers,
                 new int[]{R.id.radioButton,R.id.radioButton2,R.id.radioButton3},
                 R.id.check,test.getQuestions(),
-                test.isFinalized());
+                test.isFinalized()
+        );
+
         listViewTest.setAdapter(adapter);
 
         back = (Button)findViewById(R.id.back);
@@ -62,6 +65,9 @@ public class ActivityNumTema extends AppCompatActivity {
                 adapter.setFinalized(true);
                 adapter.notifyDataSetChanged();
                 ShowMessage();
+                respuestasMalas = test.respuestasmal();
+                db.añadirErrores(respuestasMalas);
+                db.add(test.countCorrectAnswers(),test.countWrongAnswers());
             }
         });
 

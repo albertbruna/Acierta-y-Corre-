@@ -12,7 +12,7 @@ import android.widget.Button;
  */
 
 public class ActivityTemas extends AppCompatActivity {
-    private Button back,buttonTema1,buttonTema2,buttonTema3;
+    private Button back,buttonTema1,buttonTema2,buttonTema3,buttonTema4;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -50,7 +50,15 @@ public class ActivityTemas extends AppCompatActivity {
             }
         });
 
-
+        buttonTema4 = (Button)findViewById(R.id.buttonTema4);
+        buttonTema4.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent buttonTema4 = new Intent(ActivityTemas.this, ActivityNumTema4.class);
+                startActivity(buttonTema4);
+                finish();
+            }
+        });
 
         back = (Button)findViewById(R.id.back);
         back.setOnClickListener(new View.OnClickListener(){
