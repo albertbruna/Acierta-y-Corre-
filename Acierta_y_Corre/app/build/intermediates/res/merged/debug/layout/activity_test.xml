@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <Button
-        android:text="back"
+        android:text="@string/back"
         android:layout_width="64dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -23,7 +23,7 @@
         android:layout_marginBottom="60dp" />
 
     <Button
-        android:text="Finalizar"
+        android:text="@string/Finalizar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/buttonFinalizar"

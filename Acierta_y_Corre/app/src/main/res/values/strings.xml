@@ -5,5 +5,15 @@
     <string name="succes_message">¡Correcto!</string>
     <string name="error_message">Has fallado</string>
     <string name="titolDialeg">Missatge</string>
+    <string name="back">back</string>
+    <string name="EmpezarTest">EMPEZAR TEST</string>
+    <string name="Tema">Tema</string>
+    <string name="Hist">Historial</string>
+    <string name="Errores">Errores</string>
+    <string name="Normas">Normas generales de comportamiento</string>
+    <string name="Velocidad">Velocidad</string>
+    <string name="Señales">Señales</string>
+    <string name="Alumbrado">Alumbrado</string>
+    <string name="Finalizar">Finalizar</string>
 
 </resources>

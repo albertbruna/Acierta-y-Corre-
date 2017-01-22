@@ -7,31 +7,31 @@
     android:layout_height="match_parent">
 
     <Button
-        android:text="Normas generales de comportamiento"
+        android:text="@string/Normas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/buttonTema1" />
 
     <Button
-        android:text="Velocidad"
+        android:text="@string/Velocidad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/buttonTema2" />
 
     <Button
-        android:text="Señales"
+        android:text="@string/Señales"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/buttonTema3" />
 
     <Button
-        android:text="Alumbrado"
+        android:text="@string/Alumbrado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/buttonTema4"/>
 
     <Button
-        android:text="back"
+        android:text="@string/back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

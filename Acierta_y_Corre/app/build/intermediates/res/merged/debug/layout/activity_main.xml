@@ -62,10 +62,10 @@
             android:layout_below="@+id/imageButton2"
             android:layout_centerHorizontal="true"
             android:id="@+id/Hist"
-            android:text="Hist" />
+            android:text="@string/Hist" />
 
         <TextView
-            android:text="Tema"
+            android:text="@string/Tema"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/Tema"
@@ -85,7 +85,7 @@
             android:layout_alignRight="@+id/imageButton3"
             android:layout_alignEnd="@+id/imageButton3"
             android:id="@+id/Errores"
-            android:text="Errores" />
+            android:text="@string/Errores" />
 
     </RelativeLayout>
 
@@ -97,7 +97,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true">
 
-        <Button android:text="EMPEZAR TEST"
+        <Button android:text="@string/EmpezarTest"
             android:layout_width="220dip"
             android:layout_height="100dip"
             android:id="@+id/EmpezarTest"
