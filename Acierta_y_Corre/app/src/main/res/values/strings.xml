@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Acierta_y_Corre</string>
+    <string name="app_name">Acierta y Corre</string>
     <string name="num_succes">Aciertos:\t</string>
     <string name="num_errors">Fallos:\t</string>
     <string name="succes_message">¡Correcto!</string>
