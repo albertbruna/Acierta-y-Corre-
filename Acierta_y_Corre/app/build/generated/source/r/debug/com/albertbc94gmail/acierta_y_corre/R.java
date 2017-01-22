@@ -2052,7 +2052,6 @@ containing a value of this type.
     }
     public static final class raw {
         public static final int database=0x7f060000;
-        public static final int temas=0x7f060001;
     }
     public static final class string {
         public static final int Alumbrado=0x7f070015;

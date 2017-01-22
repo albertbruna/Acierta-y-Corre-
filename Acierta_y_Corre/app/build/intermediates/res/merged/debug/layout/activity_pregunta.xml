@@ -21,7 +21,7 @@
 
         <TextView
             android:text="TextView"
-            android:layout_width="253dp"
+            android:layout_width="225dp"
             android:layout_height="65dp"
             android:id="@+id/textViewQuestion" />
 
@@ -32,19 +32,19 @@
 
             <RadioButton
                 android:text="RadioButton"
-                android:layout_width="253dp"
+                android:layout_width="230dp"
                 android:layout_height="65dp"
                 android:id="@+id/radioButton" />
 
             <RadioButton
                 android:text="RadioButton"
-                android:layout_width="253dp"
+                android:layout_width="230dp"
                 android:layout_height="65dp"
                 android:id="@+id/radioButton3" />
 
             <RadioButton
                 android:text="RadioButton"
-                android:layout_width="253dp"
+                android:layout_width="230dp"
                 android:layout_height="59dp"
                 android:id="@+id/radioButton2" />
 

@@ -751,7 +751,6 @@ int layout select_dialog_singlechoice_material 0x7f04002c
 int layout support_simple_spinner_dropdown_item 0x7f04002d
 int mipmap ic_launcher 0x7f030000
 int raw database 0x7f060000
-int raw temas 0x7f060001
 int string Alumbrado 0x7f070015
 int string EmpezarTest 0x7f070016
 int string Errores 0x7f070017
