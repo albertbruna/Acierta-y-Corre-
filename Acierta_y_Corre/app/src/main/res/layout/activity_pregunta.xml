@@ -8,7 +8,7 @@
     android:weightSum="1">
 
     <ImageView
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="100dp"
         android:layout_width="120dp"
         android:layout_height="120dp"
         app:srcCompat="@mipmap/ic_launcher"
@@ -17,44 +17,44 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="249dp">
+        android:layout_height="300dp">
 
         <TextView
             android:text="TextView"
-            android:layout_width="match_parent"
-            android:layout_height="51dp"
+            android:layout_width="253dp"
+            android:layout_height="65dp"
             android:id="@+id/textViewQuestion" />
 
         <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="193dp"
             android:id = "@+id/radiogroup_answers">
 
             <RadioButton
                 android:text="RadioButton"
                 android:layout_width="253dp"
-                android:layout_height="73dp"
+                android:layout_height="65dp"
                 android:id="@+id/radioButton" />
 
             <RadioButton
                 android:text="RadioButton"
                 android:layout_width="253dp"
-                android:layout_height="60dp"
-                android:id="@+id/radioButton2" />
+                android:layout_height="65dp"
+                android:id="@+id/radioButton3" />
 
             <RadioButton
                 android:text="RadioButton"
                 android:layout_width="253dp"
-                android:layout_height="66dp"
-                android:id="@+id/radioButton3" />
-
-            <ImageView
-                android:layout_width="40dp"
-                android:layout_height="36dp"
-                android:layout_gravity="bottom|right"
-                android:id="@+id/check" />
+                android:layout_height="59dp"
+                android:id="@+id/radioButton2" />
 
         </RadioGroup>
+
+        <ImageView
+            android:layout_width="47dp"
+            android:layout_height="36dp"
+            android:id="@+id/check"
+            android:layout_gravity="bottom|right" />
 
     </LinearLayout>
 

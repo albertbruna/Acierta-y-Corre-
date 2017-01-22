@@ -328,7 +328,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">Acierta_y_Corre</string>
+    <string name="app_name">Acierta y Corre</string>
     <string name="error_message">Has fallado</string>
     <string name="num_errors">Fallos:\t</string>
     <string name="num_succes">Aciertos:\t</string>

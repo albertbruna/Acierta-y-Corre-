@@ -3,15 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_81c0f4765e8f1878549accb7d2ffc9e371045f2d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Albert\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -36,6 +27,114 @@
         revision="24.0.3"
         sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
         <dex dex="C:\Users\Albert\Downloads\Acierta_y_Corre_con_testPorTemas\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_c4fe1f5dff97d89bd540fc6a63f470d1fe6d6b38\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_80878e9cc34dfcbce5f41d7115fe846a12184b49\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_48c0b19c3d2cc5b4bc22456259fe031bdbab1a78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_eb7220a427cf6164c6d8952352cdb1a57c434571\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_23fc235829624f75a44b5ec2b6e81be1928e4c72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Albert\Downloads\Acierta_y_Corre_con_testPorTemas\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Albert\Downloads\Acierta_y_Corre_con_testPorTemas\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_d0c3109a039fcad25b81487c685389ca7f37e80b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_b8d3847ce57c6e5f806df75cb96b45a7839d6215\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Albert\Downloads\Acierta_y_Corre_con_testPorTemas\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Albert\Downloads\Acierta_y_Corre_con_testPorTemas\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_6e882315bcbb8d53207a095b18a031f5b5ecae4e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_5c0b1d481b2e12e8662c021ef43197324152537d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_5166470095d8d9d379822a192ad5a7ed9e0cf55f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Albert\Downloads\Acierta_y_Corre_con_testPorTemas\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Albert\Downloads\Acierta_y_Corre_con_testPorTemas\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_063f7e845750702637de3b4e2d4661169ecab499\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Albert\Downloads\Acierta_y_Corre_con_testPorTemas\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Albert\Downloads\Acierta_y_Corre_con_testPorTemas\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_82f87ff3f90fc5f8d4e8844d64d71cd25f5c4ec8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_81c0f4765e8f1878549accb7d2ffc9e371045f2d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -66,15 +165,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_80878e9cc34dfcbce5f41d7115fe846a12184b49\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Albert\Downloads\Acierta_y_Corre_con_testPorTemas\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -99,15 +189,6 @@
         revision="24.0.3"
         sha1="d5c731fc64c03dfe04d51134955b483551c35849">
         <dex dex="C:\Users\Albert\Downloads\Acierta_y_Corre_con_testPorTemas\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_283ef8025899f54725a1fcf473c9b46c7d62f115\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_48c0b19c3d2cc5b4bc22456259fe031bdbab1a78\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -147,15 +228,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_eb7220a427cf6164c6d8952352cdb1a57c434571\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Albert\Downloads\Acierta_y_Corre_con_testPorTemas\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
@@ -165,39 +237,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_23fc235829624f75a44b5ec2b6e81be1928e4c72\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Albert\Downloads\Acierta_y_Corre_con_testPorTemas\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\Albert\Downloads\Acierta_y_Corre_con_testPorTemas\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_d0c3109a039fcad25b81487c685389ca7f37e80b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
         <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_909d2e1da82954a5a2544ea5ff72fa1e72ec4139\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_b8d3847ce57c6e5f806df75cb96b45a7839d6215\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -228,30 +273,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Albert\Downloads\Acierta_y_Corre_con_testPorTemas\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\Albert\Downloads\Acierta_y_Corre_con_testPorTemas\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_6e882315bcbb8d53207a095b18a031f5b5ecae4e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="f37a8b106c6f7f0c211cdb8c905be0094fe0198d">
+        sha1="df217361d7bff77243e16899f16a0a060dedcf3e">
         <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_11df59bace855f97b1610fa61d10c3a1e1d06c64\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_5c0b1d481b2e12e8662c021ef43197324152537d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -264,38 +291,11 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_5166470095d8d9d379822a192ad5a7ed9e0cf55f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Albert\Downloads\Acierta_y_Corre_con_testPorTemas\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Albert\Downloads\Acierta_y_Corre_con_testPorTemas\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_063f7e845750702637de3b4e2d4661169ecab499\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Albert\Downloads\Acierta_y_Corre_con_testPorTemas\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Albert\Downloads\Acierta_y_Corre_con_testPorTemas\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_82f87ff3f90fc5f8d4e8844d64d71cd25f5c4ec8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="94850b1cb937d04e8ee166d9cb2998a6230d11c0">
+        sha1="237ec69073aa114df6c9c701dd3b89e80fda2e91">
         <dex dex="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5139911ac7f1ef82068e9a6ef9bfcd824869906f\classes.dex" />
     </item>
 

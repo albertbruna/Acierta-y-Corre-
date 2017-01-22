@@ -7,8 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
-import android.widget.RadioButton;
-import android.widget.TextView;
 
 /**
  * Created by Francisco on 21/01/2017.
@@ -18,13 +16,7 @@ public class ActivityNumTema2 extends AppCompatActivity {
     private Button back,finalizartest;
     private Test test;
     private ListView listViewTest;
-    private TextView textViewQuestion;
-    //private Question questions[];
     private TestAdapter adapter;
-    private RadioButton[] radioButtonsAnswers;
-    private int contOK;
-    private boolean[] Verify;
-    private String correctAnswer;
     private DBHelper db = DBHelper.getInstance(this);
 
     @Override

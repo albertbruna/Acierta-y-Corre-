@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jan 22 19:25:41 CET 2017
+#Sun Jan 22 20:55:45 CET 2017
 210.set=DEX
 282.file=C\:\\Users\\Albert\\Documents\\UNI\\ANDROID\\Acierta-y-Corre-\\Acierta_y_Corre\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_tint_switch_track.xml
 14.set=ANDROID_RESOURCE
