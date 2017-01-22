@@ -63,7 +63,7 @@ public class ActivityErrores extends AppCompatActivity {
                 adapter.setFinalized(true);
                 adapter.notifyDataSetChanged();
                 ShowMessage();
-                //db.borrarErrores(test.respuestasbienerrores());
+                //db.eliminarErrores(test.respuestasbienerrores());
             }
         });
 

@@ -1,7 +1,7 @@
-#Sun Jan 22 01:07:04 CET 2017
-base.0=C\:\\Users\\Albert\\Downloads\\Acierta_y_Corre_con_testPorTemas\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_006e7fc1c6d641ae9591e7120a8387c438a5e38b
+#Sun Jan 22 03:31:31 CET 2017
+base.0=C\:\\Users\\Albert\\Documents\\UNI\\ANDROID\\Acierta-y-Corre-\\Acierta_y_Corre\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_11df59bace855f97b1610fa61d10c3a1e1d06c64
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=C\:\\Users\\Albert\\Downloads\\Acierta_y_Corre_con_testPorTemas\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_ea60666c2a3bec9f9af504b365ca30d7d29a99fb\\classes.dex
-base.1=C\:\\Users\\Albert\\Downloads\\Acierta_y_Corre_con_testPorTemas\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_ea60666c2a3bec9f9af504b365ca30d7d29a99fb
-file.0=C\:\\Users\\Albert\\Downloads\\Acierta_y_Corre_con_testPorTemas\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_006e7fc1c6d641ae9591e7120a8387c438a5e38b\\classes.dex
+file.1=C\:\\Users\\Albert\\Documents\\UNI\\ANDROID\\Acierta-y-Corre-\\Acierta_y_Corre\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5139911ac7f1ef82068e9a6ef9bfcd824869906f\\classes.dex
+base.1=C\:\\Users\\Albert\\Documents\\UNI\\ANDROID\\Acierta-y-Corre-\\Acierta_y_Corre\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5139911ac7f1ef82068e9a6ef9bfcd824869906f
+file.0=C\:\\Users\\Albert\\Documents\\UNI\\ANDROID\\Acierta-y-Corre-\\Acierta_y_Corre\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_11df59bace855f97b1610fa61d10c3a1e1d06c64\\classes.dex

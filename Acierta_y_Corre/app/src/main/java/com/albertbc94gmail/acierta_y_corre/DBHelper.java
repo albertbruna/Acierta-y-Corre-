@@ -110,16 +110,29 @@ public class DBHelper extends SQLiteOpenHelper {
         db.close();
     }
 
+//    public void eliminarErrores(int[] pregBien) {
+//        int preg;
+//        SQLiteDatabase db = getReadableDatabase();
+//        for (int i = 0; i < pregBien.length; i++) {
+//            preg = pregBien[i];
+//            db.rawQuery("DELETE * FROM testErrores where idpreg = " + preg, null);;
+//        }
+//        db.close();
+//    }
+
     public Test generarTest() {
         Test t = new Test();
         SQLiteDatabase db = getReadableDatabase();
         Cursor c = db.rawQuery("SELECT * FROM preguntas", null);
-        int i = 0;
+        int i = 0,j=0;
         if (c.moveToFirst()) {
             do {
-                String[] distractors = {c.getString(4), c.getString(5)};
-                t.addQuestion(new Question(c.getInt(0), c.getString(2), distractors, c.getString(3), c.getString(6)));
-                Log.d("generarTest", t.getQuestions().get(i++).toString());
+                if(i<30) {
+                    String[] distractors = {c.getString(4), c.getString(5)};
+                    t.addQuestion(new Question(c.getInt(0), c.getString(2), distractors, c.getString(3), c.getString(6)));
+                    Log.d("generarTest", t.getQuestions().get(i++).toString());
+                    j++;
+                }
             } while (c.moveToNext());
         }
         t.shuffle(); //Mezcla las preguntas
