@@ -100,8 +100,8 @@ public class DBHelper extends SQLiteOpenHelper {
             Cursor c = db.rawQuery("SELECT * FROM preguntas where id = " + preg, null);
             if (c.moveToFirst()) {
                 do {
+
                     ContentValues values = new ContentValues();
-                    //values.put("id", c.getInt(0));
                     values.put("idpreg", c.getString(0));
                     values.put("pregunta", c.getString(2));
                     values.put("respuesta_correcta", c.getString(3));
@@ -112,10 +112,12 @@ public class DBHelper extends SQLiteOpenHelper {
                 } while (c.moveToNext());
             }
             c.close();
+            getWritableDatabase().execSQL("delete from testErrores where id not in (SELECT MIN(id ) FROM testErrores GROUP BY idpreg)");
         }
         dbw.close();
         db.close();
     }
+
 
     public void eliminarErrores(int[] pregBien) {
         int preg;
