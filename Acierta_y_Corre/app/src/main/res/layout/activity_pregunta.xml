@@ -22,7 +22,7 @@
         <TextView
             android:text="TextView"
             android:layout_width="match_parent"
-            android:layout_height="77dp"
+            android:layout_height="51dp"
             android:id="@+id/textViewQuestion" />
 
         <RadioGroup
@@ -32,20 +32,20 @@
 
             <RadioButton
                 android:text="RadioButton"
-                android:layout_width="196dp"
-                android:layout_height="55dp"
+                android:layout_width="253dp"
+                android:layout_height="73dp"
                 android:id="@+id/radioButton" />
 
             <RadioButton
                 android:text="RadioButton"
-                android:layout_width="206dp"
-                android:layout_height="54dp"
+                android:layout_width="253dp"
+                android:layout_height="60dp"
                 android:id="@+id/radioButton2" />
 
             <RadioButton
                 android:text="RadioButton"
-                android:layout_width="201dp"
-                android:layout_height="47dp"
+                android:layout_width="253dp"
+                android:layout_height="66dp"
                 android:id="@+id/radioButton3" />
 
             <ImageView
