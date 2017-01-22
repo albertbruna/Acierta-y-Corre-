@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent imageButton2 = new Intent(MainActivity.this,ActivityErrores.class);
+                Intent imageButton2 = new Intent(MainActivity.this,ActivityHistorial.class);
                 startActivity(imageButton2);
 
             }
@@ -60,12 +60,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent imageButton3 = new Intent(MainActivity.this,ActivityHistorial.class);
+                Intent imageButton3 = new Intent(MainActivity.this,ActivityErrores.class);
                 startActivity(imageButton3);
 
             }
         });
-
-        //test = GeneradorTest.generarTest();
     }
 }

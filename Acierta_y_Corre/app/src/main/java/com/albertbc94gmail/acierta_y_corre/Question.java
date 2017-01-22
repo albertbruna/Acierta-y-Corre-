@@ -9,24 +9,15 @@ import java.util.Random;
  */
 
 public class Question {
-
     private String question;
     private String[] respostes;
     private String correctAnswer;
     private static Random r = new Random();
-    private Bitmap image;
+    //private String image;
     private int resposta=-1;
+    private int idQuestion;
+    private String recurso;
 
-    //Estos 2 metodos es para separar la respuesta correcta de los distractores al encontrar ;
-
-    private static String getCorrectAnswers(String answers) {
-        return answers.split(";")[0];
-    }
-
-    private static String[] getDistractors(String answers) {
-        int i = answers.indexOf(';');
-        return answers.substring(i+1).split(";");
-    }
 
     public int getResposta() {
         return resposta;
@@ -36,14 +27,14 @@ public class Question {
         this.resposta = resposta;
     }
 
-    //Constructor para que coja la respuesta correcta como la primera, da error
+    public String getRecurso() {
+        return recurso;
+    }
 
-    /*public Question(String question, String answers, Bitmap image) {
-        this(question,getDistractors(answers),getCorrectAnswers(answers),image);
-    }*/
-
-    public Question(String question, String[] distractors, String correctAnswer, Bitmap image){
+    public Question(int idQuestion, String question, String[] distractors, String correctAnswer, String recurso){
+        this.idQuestion = idQuestion;
         this.question = question;
+        this.recurso = recurso;
         this.respostes = new String[distractors.length+1];
         this.respostes[0] = correctAnswer;
         for(int i=0; i<distractors.length; i++) {
@@ -51,7 +42,10 @@ public class Question {
         }
         this.respostes = mixAnswers(this.respostes);
         this.correctAnswer = correctAnswer;
-        this.image = image;
+    }
+
+    public int getIdQuestion() {
+        return idQuestion;
     }
 
     public String getQuestion(){
@@ -62,11 +56,12 @@ public class Question {
         return respostes;
     }
 
-    public Bitmap getImage(){
-        return image;
-    }
+//    public String getImage(){
+//        return image;
+//    }
 
     public boolean isCorrect(){
+        if(this.resposta==-1) return false;
         return correctAnswer.equals(getRespostes()[this.resposta]);
     }
 

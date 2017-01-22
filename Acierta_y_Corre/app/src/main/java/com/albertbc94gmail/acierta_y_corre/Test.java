@@ -1,6 +1,7 @@
 package com.albertbc94gmail.acierta_y_corre;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -9,12 +10,21 @@ import java.util.List;
 
 public class Test {
 
-    private int Id;
+    private static List<Question> questions;
+    //private DBHelper db;
 
-    private List<Question> questions;
+    public void setFinalized(boolean finalized) {
+        this.finalized = finalized;
+    }
+
+    private boolean finalized;
 
     public Test() {
         this.questions = new ArrayList<Question>();
+        this.finalized = false;
+    }
+    public static void shuffle() {
+        Collections.shuffle(questions);
     }
 
     public List<Question> getQuestions() {
@@ -25,7 +35,38 @@ public class Test {
         questions.add(q);
     }
 
-    public int getId() {
-        return Id;
+    public boolean isFinalized(){
+        return finalized;
+    }
+
+    public int countCorrectAnswers() {
+        int count = 0;
+        for(Question q: getQuestions()) {
+            if(q.isCorrect()) count++;
+        }
+        return count;
+    }
+
+    public int countWrongAnswers() {
+        int count = 0;
+        for(Question q: getQuestions()) {
+            if(!q.isCorrect()) {
+                count++;
+            }
+        }
+        return count;
+   }
+
+    public int[] respuestasmal(){
+        int i = 0;
+        int[] pregMal;
+        pregMal = new int[150];
+        for(Question q: getQuestions()) {
+            if (!q.isCorrect()) {
+                pregMal[i] = q.getIdQuestion();
+            }
+            i++;
+        }
+        return pregMal;
     }
 }

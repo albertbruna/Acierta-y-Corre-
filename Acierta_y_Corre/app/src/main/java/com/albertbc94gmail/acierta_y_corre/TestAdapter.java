@@ -1,8 +1,11 @@
 package com.albertbc94gmail.acierta_y_corre;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.view.LayoutInflater;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+//import android.support.annotation.NonNull;
+//import android.support.v7.app.AlertDialog;
+//import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
@@ -17,21 +20,31 @@ import java.util.List;
  */
 
 public class TestAdapter extends ArrayAdapter<Question> {
-    private final int buttonGroup;
-    private final int imageViewQuestion;
-    private final int imageViewVerify;
+    private int buttonGroup;
+    private int imageViewQuestion;
+    private int imageViewVerify;
     private int[] radioButtons;
-    //private int textViewResourceId;
 
-    //private int textViewResourceId;
-    public TestAdapter(Context context, int layout, int textViewQuestion,  int imageViewQuestion, int buttonGroup, int[] radioButtons, int imageViewVerify, List<Question> objects) {
-        super(context, layout, textViewQuestion, objects);
-        this.buttonGroup = buttonGroup;
-        this.imageViewQuestion =imageViewQuestion;
-        this.imageViewVerify = imageViewVerify;
-        this.radioButtons = radioButtons;
+    public boolean isFinalized() {
+        return finalized;
     }
 
+    public void setFinalized(boolean finalized) {
+        this.finalized = finalized;
+    }
+
+    private boolean finalized;
+
+    //private int textViewResourceId;
+
+    public TestAdapter(Context context, int layout, int textViewQuestion,  int imageViewQuestion, int buttonGroup, int[]radioButtons, int imageViewVerify, List<Question> objects, boolean finalized) {
+        super(context, layout, textViewQuestion,objects);
+        this.buttonGroup = buttonGroup;
+        this.imageViewQuestion = imageViewQuestion;
+        this.imageViewVerify = imageViewVerify;
+        this.radioButtons = radioButtons;
+        this.finalized = finalized;
+    }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
@@ -44,12 +57,19 @@ public class TestAdapter extends ArrayAdapter<Question> {
 
         Question q = this.getItem(position);
 
-        imviewQuestion.setImageBitmap(q.getImage());
-        if(q.getResposta()==-1 || !q.isCorrect()) {
-            imviewVerify.setImageBitmap(null); //imatge a mostrar
+        if (!q.getRecurso().equals("null")) { // Si es modo pregunta con imagen se carga el recurso
+            imviewQuestion.setImageResource(getImageId(getContext(), q.getRecurso()));
         }
-        else{
-            imviewVerify.setImageBitmap(null); //imatge correcte
+
+        //imviewQuestion.setImageBitmap(q.getImage());
+        if(isFinalized()) {
+            if (q.getResposta() == -1 || !q.isCorrect()) {
+                Bitmap bm = BitmapFactory.decodeResource(getContext().getResources(), R.drawable.imgcheckwrong);
+                imviewVerify.setImageBitmap(bm); //imatge a mostrar
+            } else {
+                Bitmap bm = BitmapFactory.decodeResource(getContext().getResources(), R.drawable.imgcheckcorrect);
+                imviewVerify.setImageBitmap(bm); //imatge correcte
+            }
         }
         if(q.getResposta()!=-1) {
             rg.check(radioButtons[q.getResposta()]);
@@ -62,21 +82,29 @@ public class TestAdapter extends ArrayAdapter<Question> {
             rb.setText(q.getRespostes()[i]);
             final int answer = i;
             final int question = position;
-            rb.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    clickAnswer(question,answer);
-                }
-            });
+            if(!isFinalized()) {
+                rb.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        clickAnswer(question, answer);
+                    }
+                });
+            }
+            else {
+                rb.setEnabled(false);
+            }
         }
         return convertView;
     }
 
-    //este metodo es para q guarde la respuesta clicada, sino al mover la lista o girar la pantalla se perderia lo seleccionado
     protected void clickAnswer(int question, int answer) {
         Question q = getItem(question);
         if(q.getResposta()==answer) answer = -1;
         q.setResposta(answer);
         notifyDataSetChanged();
+    }
+
+    private int getImageId(Context context, String imageName) {
+        return context.getResources().getIdentifier("drawable/" + imageName, null, context.getPackageName());
     }
 }

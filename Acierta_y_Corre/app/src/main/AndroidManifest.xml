@@ -19,6 +19,10 @@
         <activity android:name=".ActivityErrores"/>
         <activity android:name=".ActivityHistorial"/>
         <activity android:name=".ActivityTemas"/>
+        <activity android:name=".ActivityNumTema"/>
+        <activity android:name=".ActivityNumTema2"/>
+        <activity android:name=".ActivityNumTema3"/>
+
     </application>
 
 </manifest>
