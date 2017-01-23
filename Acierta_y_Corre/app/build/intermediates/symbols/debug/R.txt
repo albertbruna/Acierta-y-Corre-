@@ -654,8 +654,8 @@ int id progress_circular 0x7f0c0005
 int id progress_horizontal 0x7f0c0006
 int id radio 0x7f0c003e
 int id radioButton 0x7f0c0066
-int id radioButton2 0x7f0c0068
-int id radioButton3 0x7f0c0067
+int id radioButton2 0x7f0c0067
+int id radioButton3 0x7f0c0068
 int id radiogroup_answers 0x7f0c0065
 int id result 0x7f0c007f
 int id screen 0x7f0c0015

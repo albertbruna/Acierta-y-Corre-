@@ -1947,8 +1947,8 @@ containing a value of this type.
         public static final int progress_horizontal=0x7f0c0006;
         public static final int radio=0x7f0c003e;
         public static final int radioButton=0x7f0c0066;
-        public static final int radioButton2=0x7f0c0068;
-        public static final int radioButton3=0x7f0c0067;
+        public static final int radioButton2=0x7f0c0067;
+        public static final int radioButton3=0x7f0c0068;
         public static final int radiogroup_answers=0x7f0c0065;
         public static final int result=0x7f0c007f;
         public static final int screen=0x7f0c0015;

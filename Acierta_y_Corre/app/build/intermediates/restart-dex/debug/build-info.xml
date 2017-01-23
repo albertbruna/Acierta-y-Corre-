@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
+    abi="x86"
     api-level="23"
-    density="xxhdpi"
+    density="420dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="42647807483042"
-    token="4207110325454908385"
+    timestamp="1668335779705"
+    token="-5679240244296016196"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="6456" />
+        duration="314" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="2710" />
+        duration="630" />
     <task
         name="verifier"
-        duration="1289" />
+        duration="92" />
 
     <artifact
-        location="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\outputs\apk\app-debug.apk"
+        location="E:\Descargas\Acierta-y-Corre--master\Acierta_y_Corre\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="42647807483042"
+        timestamp="1668335779705"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Albert\Documents\UNI\ANDROID\Acierta-y-Corre-\Acierta_y_Corre\app\build\outputs\apk\app-debug.apk"
+            location="E:\Descargas\Acierta-y-Corre--master\Acierta_y_Corre\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
 
