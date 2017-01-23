@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:id="@+id/result">
+
+    <TextView
+        android:id="@+id/listFallos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/num_errors"
+        android:layout_below="@+id/listAciertos"
+        android:layout_alignStart="@+id/listAciertos"
+        android:textColor="@android:color/background_dark"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/listNFallos"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_below="@+id/listNAciertos"
+        android:layout_alignEnd="@+id/listNAciertos" />
+
+    <TextView
+        android:id="@+id/listAciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/num_succes"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/background_dark"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/listNAciertos"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="55dp" />
+
+    <TextView
+        android:text="@string/Hist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textSize="70px"
+        android:id="@+id/id_hist"
+        android:layout_toStartOf="@+id/listFallos"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listPorcentaje"
+        android:progress="50"
+        android:progressTint="@android:color/holo_green_dark"
+        android:layout_alignBottom="@+id/listAciertos"
+        android:layout_toEndOf="@+id/listAciertos" />
+
+</RelativeLayout>

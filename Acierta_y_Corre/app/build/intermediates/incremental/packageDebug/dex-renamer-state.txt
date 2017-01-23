@@ -1,4 +1,4 @@
-#Mon Jan 23 13:45:28 CET 2017
+#Mon Jan 23 18:13:26 CET 2017
 base.0=E\:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_72b2b0164c92a0337262d6f18fe55ab1f23232c3
 renamed.1=classes2.dex
 renamed.0=classes.dex

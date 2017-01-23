@@ -1,0 +1,458 @@
+[
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_launcher.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\ic_launcher.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img67.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img67.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img84.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img84.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img113.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img113.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\imgerrors.png",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\imgerrors.png"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_search_api_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img70.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img70.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img66.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img66.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img54.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img54.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img19.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img19.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img85.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img85.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img71.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img71.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\imghistorial.png",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\imghistorial.png"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img82.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img82.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img38.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img38.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img7.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img7.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_clear_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img52.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img52.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img68.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img68.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img79.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img79.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\imgtemas.png",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\imgtemas.png"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img41.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img41.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img50.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img50.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img78.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img78.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img81.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img81.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img87.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img87.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img47.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img47.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img110.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img110.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img65.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img65.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img9.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img9.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img69.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img69.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img24.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img24.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img43.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img43.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img88.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img88.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img120.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img120.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img107.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img107.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img34.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img34.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img91.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img91.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img94.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img94.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img59.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img59.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img75.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img75.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img72.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img72.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img28.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img28.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img105.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img105.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img14.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img14.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img61.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img61.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img89.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img89.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img44.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img44.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img76.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img76.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img58.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img58.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img62.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img62.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img74.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img74.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img63.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img63.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img57.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img57.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img60.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img60.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\iimg81.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\iimg81.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img119.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img119.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img11.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img11.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\imgcheckwrong.png",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\imgcheckwrong.png"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img95.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img95.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img108.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img108.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img17.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img17.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img33.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img33.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img2.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img2.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img102.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img102.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img39.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img39.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img103.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img103.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img55.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img55.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img73.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img73.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img16.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img16.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img90.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img90.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img51.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img51.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img77.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img77.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_vector_test.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img10.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img10.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\imgcheckcorrect.png",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\imgcheckcorrect.png"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img83.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img83.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img86.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img86.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img26.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img26.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img45.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img45.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img64.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img64.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img48.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img48.jpg"
+    },
+    {
+        "merged": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\build\\intermediates\\res\\merged\\release\\drawable\\img80.jpg",
+        "source": "E:\\Descargas\\Acierta-y-Corre--master\\Acierta_y_Corre\\app\\src\\main\\res\\drawable\\img80.jpg"
+    }
+]
