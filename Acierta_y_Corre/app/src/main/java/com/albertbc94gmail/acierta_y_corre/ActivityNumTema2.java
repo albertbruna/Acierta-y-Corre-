@@ -18,6 +18,7 @@ public class ActivityNumTema2 extends AppCompatActivity {
     private ListView listViewTest;
     private TestAdapter adapter;
     private DBHelper db = DBHelper.getInstance(this);
+    private int[] respuestasMalas;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -35,7 +36,9 @@ public class ActivityNumTema2 extends AppCompatActivity {
                 R.id.radiogroup_answers,
                 new int[]{R.id.radioButton,R.id.radioButton2,R.id.radioButton3},
                 R.id.check,test.getQuestions(),
-                test.isFinalized());
+                test.isFinalized()
+        );
+
         listViewTest.setAdapter(adapter);
         back = (Button)findViewById(R.id.back);
         back.setOnClickListener(new View.OnClickListener() {
@@ -44,6 +47,7 @@ public class ActivityNumTema2 extends AppCompatActivity {
                 finish();
             }
         });
+
         finalizartest = (Button)findViewById(R.id.buttonFinalizar);
         finalizartest.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,6 +56,9 @@ public class ActivityNumTema2 extends AppCompatActivity {
                 adapter.setFinalized(true);
                 adapter.notifyDataSetChanged();
                 ShowMessage();
+                respuestasMalas = test.respuestasmal();
+                db.añadirErrores(respuestasMalas);
+                db.add(test.countCorrectAnswers(),test.countWrongAnswers());
             }
         });
 

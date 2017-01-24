@@ -33,7 +33,7 @@ public class ResultsAdapter extends BaseAdapter {
         nFallos = (TextView) vistaReciclada.findViewById(R.id.listNFallos);
         porcentaje = (ProgressBar) vistaReciclada.findViewById(R.id.listPorcentaje);
 
-        id_hist.setText("Tema nº " + Integer.toString(puntuacion.getId_h()));
+        id_hist.setText("Test nº " + Integer.toString(puntuacion.getId_h()));
         nAciertos.setText(Integer.toString(puntuacion.getCorrectas()));
         nFallos.setText(Integer.toString(puntuacion.getFallidas()));
         porcentaje.setProgress(puntuacion.getPorcentaje());
